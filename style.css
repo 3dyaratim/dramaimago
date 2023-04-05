@@ -523,7 +523,7 @@ body {
   color: var(--clr-primary-light);
 }
 .footer-icons li {
-  margin-right: 2rem;
+  padding: 0 27px;
 }
 @media screen and (max-width: 560px) {
   .footer-logo img {
