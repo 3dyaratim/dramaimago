@@ -577,6 +577,15 @@ body {
     text-align: center;
   }
 }
+@media screen and (max-width: 800px) {
+  .hero-section {
+    height: 60vh;
+    grid-template-rows: 100px 100px 150px 50px 200px;
+  }
+  .hero-content {
+    text-align: center;
+  }
+}
 @media screen and (max-width: 768px) {
   .hero-section {
     height: 80vh;
@@ -613,7 +622,7 @@ body {
     text-align: center;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 393px) {
   .hero-section {
     height: 90vh;
     grid-template-columns: 50px 250px;
@@ -635,7 +644,7 @@ body {
 }
 @media screen and (max-width: 360px) {
   .hero-section {
-    height: 100vh;
+    height: 110vh;
     grid-template-columns: 50px 250px;
     grid-template-rows: 100px 100px 150px 50px 200px;
   }
