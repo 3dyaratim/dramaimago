@@ -566,8 +566,14 @@ body {
 }
 @media screen and (max-width: 1024px) {
   .hero-section {
-    height: 90vh;
+    height: 80vh;
     grid-template-rows: 100px 100px 150px 50px 200px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .hero-section {
+    height: 80vh;
+    grid-template-rows: 100px 100px 150px 50px 400px;
   }
 }
 @media screen and (max-width: 912px) {
@@ -614,6 +620,20 @@ body {
     min-width: 70%;
   }
 }
+@media screen and (max-width: 640px) {
+  .hero-section {
+    height: 200vh;
+    grid-template-columns: 50px 200px 50px;
+    grid-template-rows: 100px 100px 200px 30px 150px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero-section {
+    height: 80vh;
+    grid-template-columns: 50px 200px 50px;
+    grid-template-rows: 100px 100px 200px 30px 150px;
+  }
+}
 @media screen and (max-width: 540px) {
   .hero-section {
     height: 110vh;
@@ -641,7 +661,7 @@ body {
 }
 @media screen and (max-width: 414px) {
   .hero-section {
-    height: 90vh;
+    height: 105vh;
     gap: 1rem 1rem;
     grid-template-columns: 50px 250px 50px;
     grid-template-rows: 100px 100px 200px 50px 200px;
@@ -672,6 +692,14 @@ body {
     font-size: 0.8rem;
   }
 }
+@media screen and (max-width: 384px) {
+  .hero-section {
+    height: 110vh;
+    grid-template-columns: 50px 200px 50px;
+    grid-template-rows: 100px 100px 200px 30px 150px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .hero-section {
     height: 110vh;
@@ -706,7 +734,7 @@ body {
 }
 @media screen and (max-width: 320px) {
   .hero-section {
-    height: 140vh;
+    height: 150vh;
     grid-template-columns: 50px 200px 50px;
     grid-template-rows: 100px 100px 200px 30px 150px;
   }
