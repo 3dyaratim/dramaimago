@@ -613,7 +613,7 @@ body {
     text-align: center;
   }
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 412px) {
   .hero-section {
     height: 100vh;
     grid-template-rows: 100px 100px 150px 50px 200px;
@@ -634,7 +634,7 @@ body {
 }
 @media screen and (max-width: 375px) {
   .hero-section {
-    height: 120vh;
+    height: 110vh;
     grid-template-columns: 50px 250px;
     grid-template-rows: 100px 100px 150px 50px 200px;
   }
