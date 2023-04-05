@@ -574,7 +574,7 @@ body {
   .hero-section {
     height: 70vh;
     grid-template-columns: 50px 500px 50px;
-    grid-template-rows: 100px 100px 100px 50px 400px;
+    grid-template-rows: 100px 100px 150px 50px 400px;
   }
   .hero-content {
     text-align: center;
@@ -584,7 +584,7 @@ body {
   .hero-section {
     height: 80vh;
     grid-template-columns: 50px 500px 50px;
-    grid-template-rows: 100px 100px 100px 50px 400px;
+    grid-template-rows: 100px 100px 150px 50px 400px;
   }
   .hero-content {
     text-align: center;
@@ -641,10 +641,10 @@ body {
 }
 @media screen and (max-width: 414px) {
   .hero-section {
-    height: 100vh;
+    height: 90vh;
     gap: 1rem 1rem;
     grid-template-columns: 50px 250px 50px;
-    grid-template-rows: 100px 100px 180px 50px 200px;
+    grid-template-rows: 100px 100px 200px 50px 200px;
   }
   .hero-content {
     text-align: center;
